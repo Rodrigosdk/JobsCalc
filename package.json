@@ -1,0 +1,17 @@
+{
+  "name": "maratona-discover",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rodrigo Mamede <rodrigomamede53@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "nodemon": "node_modules/nodemon/bin/nodemon.js",
+    "start:Dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
