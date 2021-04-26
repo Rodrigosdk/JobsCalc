@@ -5,10 +5,10 @@
   "author": "Rodrigo Mamede <rodrigomamede53@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "nodemon": "node_modules/nodemon/bin/nodemon.js",
     "start:Dev": "nodemon src/server.js"
   },
   "dependencies": {
+    "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
   "devDependencies": {
