@@ -9,4 +9,4 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(router);
 
-app.listen(3333, () => console.log("sever on http://localhost:3333"));
+app.listen(3333, () => console.log("server on http://localhost:3333"));
